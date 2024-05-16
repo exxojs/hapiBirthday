@@ -1,0 +1,387 @@
+
+body{
+    background-color:var(--primary) ;
+    background-image: url(cutestraw.webp);
+    
+}
+
+  :root{
+    --primary: #f88876;
+    --sec: #f9af95;
+}
+
+/*-------- cut ---------*/
+
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: right;
+    align-items: right;
+
+}
+
+.wrapper>*{
+    padding: 10px;
+    margin: 4px;
+    flex: 1 100%;
+    border-radius: 20px;
+}
+
+/*========== cut ==========*/
+
+  .container{
+    background: #f9b0956e;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  .page1{
+    display: flex;
+    width: 100%; /* This line makes the .Profile width dynamic */
+    border-radius: 20px;
+    padding: 12px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+  #Box{
+    width: 500px;
+    height: auto;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--primary);
+    border-radius: 10px;
+    border: solid black 2px;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  #greet{
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+  input{
+    border: none;
+    appearance: none;
+    background: white;
+    padding: 12px;
+    width:400px;
+    margin: 12px;
+    margin-left: 35px;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-top: -30px;
+  }
+
+  #submit{
+    appearance: none;
+    border: solid black 2px;
+    height: 40px;
+    width: 59px;
+    margin: 12px;
+    margin-left: 43%;
+    background: var(--sec);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 4px;
+    font-size: 70%;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+
+  #submit:hover{
+    cursor: pointer;
+  }
+
+  .page2{
+    display: none;
+    width: 100%; /* This line makes the .Profile width dynamic */
+    border-radius: 20px;
+    padding: 12px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+ #Box2{
+    width: 500px;
+    height: auto;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #img2{
+    margin-left: 29%;
+    margin-bottom: -8px;
+ }
+
+ #greet2{
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+  #click{
+    appearance: none;
+    border: solid black 2px;
+    height: 50px;
+    width: 100px;
+    margin: 12px;
+    margin-left: 41%;
+    background: var(--sec);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 4px;
+    font-size: 70%;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+
+  #click:hover{
+    cursor: pointer;
+  }
+
+  .page3{
+    display: none;
+    width: 100%; /* This line makes the .Profile width dynamic */
+    border-radius: 20px;
+    padding: 12px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Box3{
+    width: 500px;
+    height: auto;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a8b87a;
+    border: solid black 1px;
+ }
+
+ #greet3{
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin-top: 4px;
+ }
+
+ #prev {
+  appearance: none;
+  border: solid black 2px;
+  height: 50px;
+  width: 100px;
+  margin: 12px;
+  margin-left: 10px;
+  background: var(--sec);
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 4px;
+  font-size: 70%;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Center text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#next {
+  /* Box model */
+  height: 50px;
+  width: 100px;
+  margin: 12px 0 12px 10px;
+  padding: 4px;
+
+  /* Borders */
+  border: solid black 2px;
+  border-radius: 10px;
+
+  /* Typography */
+  font: bold italic 70%/1.2 Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+
+  /* Background */
+  background: var(--sec);
+
+  /* Reset appearance */
+  appearance: none;
+  cursor: pointer;
+
+  /* Center text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-flow: row;
+}
+
+.page4{
+  display: none;
+  width: 100%; /* This line makes the .Profile width dynamic */
+  border-radius: 20px;
+  padding: 12px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Box4{
+  width: 500px;
+  height: auto;
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #a8b87a;
+  border: solid black 1px;
+}
+
+#greet4{
+color: white;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+margin-top: 4px;
+}
+
+#prev2{
+appearance: none;
+border: solid black 2px;
+height: 50px;
+width: 100px;
+margin: 12px;
+margin-left: 10px;
+background: var(--sec);
+color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 4px;
+font-size: 70%;
+font-style: italic;
+font-weight: bold;
+border-radius: 10px;
+cursor: pointer;
+
+/* Center text */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#next2{
+/* Box model */
+height: 50px;
+width: 100px;
+margin: 12px 0 12px 10px;
+padding: 4px;
+
+/* Borders */
+border: solid black 2px;
+border-radius: 10px;
+
+/* Typography */
+font: bold italic 70%/1.2 Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+
+/* Background */
+background: var(--sec);
+
+/* Reset appearance */
+appearance: none;
+cursor: pointer;
+
+/* Center text */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.buttons {
+display: flex;
+flex-flow: row;
+}
+
+/*================================*/
+
+.page5{
+  display: none;
+  width: 100%; /* This line makes the .Profile width dynamic */
+  border-radius: 20px;
+  padding: 12px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box5{
+  width: 500px;
+  height: auto;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#greet5{
+color: white;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+margin-top: 4px;
+font-size: 60px;
+}
+
+.buttones{
+  appearance: none;
+border: solid black 3px;
+height: 50px;
+width: 100px;
+margin: 12px;
+margin-left: 10px;
+background: var(--sec);
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 4px;
+font-size: 70%;
+font-style: italic;
+font-weight: bold;
+border-radius: 10px;
+cursor: pointer;
+font-size: 30px;
+-webkit-text-stroke: black 1px;
+
+/* Center text */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/*================================*/
+

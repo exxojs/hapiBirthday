@@ -1,0 +1,96 @@
+
+body{
+    background-color:var(--primary) ;
+    background-image: url(cutestraw.webp);
+    
+}
+
+  :root{
+    --primary: #f88876;
+    --sec: #f9af95;
+}
+
+/*-------- cut ---------*/
+.horay{
+    background-color: var(--primary);
+    display: flex;
+    width: 600px; /* This line makes the .Profile width dynamic */
+    border-radius: 20px;
+    padding: 12px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    height: 100%;
+  }
+  
+
+  .card{
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-top: 4px;
+    font-size: 20px;
+    }
+  
+    #totot{
+      appearance: none;
+    border: solid black 3px;
+    height: 50px;
+    width: 180px;
+    margin: 12px;
+    margin-left: 10px;
+    background: var(--sec);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 4px;
+    font-size: 70%;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    -webkit-text-stroke: black 1px;
+    
+    /* Center text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  
+    .extra{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+  
+    #hbdname{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 30px;
+        width: 100%;
+        justify-content: right;
+        align-items: right;
+    
+    }
+    
+    .wrapper>*{
+        padding: 10px;
+        margin: 4px;
+        flex: 1 100%;
+        border-radius: 20px;
+    }
+    
+    /*========== cut ==========*/
+    
+      .container{
+        background: #f9b0956e;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
